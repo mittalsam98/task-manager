@@ -1,4 +1,6 @@
 import AddTaskBtn from "@/components/add-task-btn";
+import { TaskBoard } from "@/components/task-board";
+import { TaskFilters } from "@/components/task-filters";
 
 export default function Home() {
   return (
@@ -9,7 +11,8 @@ export default function Home() {
       </div>
       
       <div className="space-y-6">
-      
+        <TaskFilters />
+        <TaskBoard />
       </div>
     </main>
   );
