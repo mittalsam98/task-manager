@@ -100,7 +100,7 @@ export default function TaskCard({ task }: TaskCardProps) {
                     <AlertDialogHeader>
                       <AlertDialogTitle>Delete Task</AlertDialogTitle>
                       <AlertDialogDescription>
-                        Are you sure you want to delete "{task.title}"? This cannot be undone.
+                        Are you sure you want to delete &quot;{task.title}&quot;? This cannot be undone.
                       </AlertDialogDescription>
                     </AlertDialogHeader>
                     <AlertDialogFooter>
