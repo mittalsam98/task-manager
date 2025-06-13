@@ -1,26 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Live Demo
+
+Deployed at: [Live](https://task-manager-two-henna-26.vercel.app/)
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Zustand (State Management)
+- Tailwind CSS
+- Shadcn UI Components
+- React Query
+- react-hook-form
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repo:
+```bash
+git clone <repository-url>
+cd task-manager
+```
 
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the live application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
+- `/app` - Next.js app directory containing pages and layouts
+- `/components` - Reusable UI components
+- `/lib` - Utility functions, apis types, and API handlers
+- `/store` - Zustand store configurations
+- `/public` - Static assets
 
 To learn more about Next.js, take a look at the following resources:
 
